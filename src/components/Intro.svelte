@@ -16,7 +16,6 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        background-color: rgb(28, 28, 28);
         height: 100vh;
     }
 </style>

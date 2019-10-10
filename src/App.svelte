@@ -6,11 +6,14 @@
 </script>
 
 <style>
-	h1 {
-		color: purple;
+	.page {
+		background-color: rgb(28, 28, 28);
 	}
 </style>
-<Intro />
-{#each projects as project}
-	<Project project={project} />
-{/each}
+
+<div class="page">
+	<Intro />
+	{#each projects as project}
+		<Project project={project} />
+	{/each}
+</div>
