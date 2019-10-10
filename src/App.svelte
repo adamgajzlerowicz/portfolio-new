@@ -1,6 +1,7 @@
 <script>
     import projects from './projects'
     import Project from './components/Project.svelte'
+	import Intro from './components/Intro.svelte'
 	export let name;
 </script>
 
@@ -9,10 +10,7 @@
 		color: purple;
 	}
 </style>
-
+<Intro />
 {#each projects as project}
 	<Project project={project} />
-
 {/each}
-<h1>Hello {name}!
-</h1>
